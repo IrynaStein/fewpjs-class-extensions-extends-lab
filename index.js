@@ -46,9 +46,7 @@ class Triangle extends Polygon {
 
 
 class Square extends Polygon {
-    constructor(sidesCount) {
-        super(sidesCount)
-    }
+
 
     get isValid() {
         if (this.count === 4) {
